@@ -97,7 +97,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
 		}else{
 			echo "<div style='text-align:center;font-size:12px;color:white;background-color:red;'>";
 			echo "<br>The following errors occured:<br>";
-			echo "Only JPEG and PNG images are allowed.";
+			echo "Only JPEG images are allowed (Size under 3Mb)";
 			echo "<br><br></div>";
 		}
 	}else
